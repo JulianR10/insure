@@ -357,6 +357,9 @@ footer .list-footer{
     }
 
     /*Menú hamburguesa*/
+    .logo{
+        margin-left: 15px;
+    }
 
     .bar-btn{
         display: block;
@@ -389,11 +392,11 @@ footer .list-footer{
     #check:checked ~ ul{
         height: 90vh;
         transition: all 1s;
-}
+    }
 
     #check:checked ~ ul li{
         display: block;
-}
+    }
 
     /*MAIN*/
     #intro-right, #intro-left{
